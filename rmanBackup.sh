@@ -1,9 +1,9 @@
 #!/bin/sh
 
-export ORACLE_HOME=  													# ORACLE_HOME
-export ORACLE_SID=SID 												# 오라클 SID명
-export TNS_ADMIN=$ORACLE_HOME/network/admin 	# tnsnames.ora 위치
-export NLS_LANG=                            	# 오라클 케릭터셋.
+export ORACLE_HOME= # ORACLE_HOME
+export ORACLE_SID= # 오라클 SID명
+export TNS_ADMIN=$ORACLE_HOME/network/admin # tnsnames.ora 위치
+export NLS_LANG= # 오라클 케릭터셋.
 
 LANG=C
 DATE=`date '+%y%m%d%H'`
